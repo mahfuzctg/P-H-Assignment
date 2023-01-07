@@ -1,0 +1,184 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: coral;
+}
+.btn-primary{
+    background: coral;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+.header{
+    background: #fff8f3;
+  
+}
+
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* About section */
+
+/* This is main section */
+.section{
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me{
+ margin-top: 130px;
+ background: #fff8f3;
+ border-radius: 10px;
+ padding: 130px 150px;
+}
+.section-title{
+   text-align: center;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: 35px;
+}
+.section-description{
+ font-size: 18px;
+ color: #757575;
+ margin-bottom: 30px;
+}
+/* About info */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* What I do styles */
+.my-plans{
+margin-top: 20px;
+padding-top: 30px;
+}
+
+.skills-container{
+ display: flex;
+}
+.skill-title{
+    text-align: center;
+font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.skill{
+    text-align: center;
+    background: #FFFF;
+    /* border-radius: 5px;
+    box-shadow: 0px 6px 50px #cbcaca; */
+    padding: 30px;
+   margin: 10px;
+   
+}
+.skill-title{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* More about */
+
+.more-about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.more-about-text{
+    margin-top: 20%;
+    justify-content: center;
+    margin-left: 15px;
+    
+}
+.more-about-text h2{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 6px;
+}
+.more-about-text p{
+ font-size: 15px;
+}
+.more-about-text li{
+  list-style: none;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+/* gridiant */
+
+/* Footer style */
+
+footer{
+    width: 100%;
+    background: rgb(31, 25, 25);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff8f3;
+}
+.footer-text{
+    
+   color: white;
+    
+}
+.footer-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.email-form input{
+    color: #fff8f3;
+    padding:20px 40px;
+    border: 0;
+}
+.footer-btn{
+    background-color: white;
+    color: coral;
+    padding: 15px 30px;
+    font-weight: 800;
+}
+.footer-text ul{
+    background: #b97575;
+}
